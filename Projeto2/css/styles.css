@@ -36,93 +36,45 @@ nav {
 }
 
 .card {
+  margin-bottom: 20px;
   border: 1px solid #d9d9d9;
   border-radius: 4px;
   background-color: #fff;
 }
 
-#product-details {
-  padding: 20px 0px;
+.line-bottom {
+  border-bottom: 1px solid #d9d9d9;
 }
 
-.card-top {
-  border-bottom: 1px solid #d9d9d9;
-  padding: 10px;
+.btn-page-container {
+  width: 220px;
+  display: grid;
+  grid-gap: 20px;
+}
+
+.btn {
+  border-radius: 4px;
+  height: 42px;
+  font-size: 16px;
+  font-weight: 700;
   display: flex;
   justify-content: center;
-}
-.card-top img {
-  width: 220px;
-}
-
-.card-bottom{
-    padding: 10px 20px 20px 20px;
-}
-
-.card-bottom h3{
-    color: #0CAF1D;
-    font-size: 20px;
-}
-
-.card-bottom h4{
-    color: #636363;
-    font-size: 12px;
-}
-
-.card-bottom p{
-    color: #636363;
-    font-size: 12px;
-    margin: 10px 0;
-}
-
-.category{
-    padding: 10px 15px;
-    background-color: #636363;
-    color: white;
-    font-size: 12px;
-    margin-right: 20px;
-    border-radius: 4px;
-    font-weight: 700;
-
-}
-
-.category-container{
-    display: flex;
-    
-}
-
-.btn-page-container{
-    width: 220px;
-    display: grid;
-    grid-gap: 20px;
-}
-
-
-.btn{
-    border-radius: 4px;
-    height: 42px;
-    font-size: 16px;
-    font-weight: 700;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 1px solid #3483FA;
-    
+  align-items: center;
+  border: 1px solid #3483fa;
 }
 
 .btn-blue {
-    background-color: #3483FA;
-    color: #fff;
-    cursor: pointer;
+  background-color: #3483fa;
+  color: #fff;
+  cursor: pointer;
 }
 
-.btn-white{
-    background-color: #fff;
-    color: #3483FA;
-    cursor: pointer;
-    
+.btn-white {
+  background-color: #fff;
+  color: #3483fa;
+  cursor: pointer;
 }
 
 .mb20 {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
