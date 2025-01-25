@@ -5,12 +5,12 @@
 }
 
 .dsc-card-total-container{
-    padding: 0 20px 10px 20px;
+    padding: 10px 20px;
     
 }
 
 .dsc-card-total-container h3{
-    text-align: right;
+    text-align: left;
     font-size: 16px;
     color: var(--dsc-color-font-secondary);
     font-weight: 700;
@@ -24,7 +24,7 @@
 
 .dsc-cart-item-container{
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
     font-size: 16px;
     font-weight: 700;
 }
@@ -35,7 +35,8 @@
 }
 
 .dsc-cart-item-right{
-    padding: 10px 20px;
+    padding-bottom: 10px;
+    padding-left: 22px;
     color:  var(--dsc-color-font-secondary);
     font-size: 14px;
     font-weight: 700;
@@ -61,3 +62,20 @@
     color: var( --dsc-color-font-primary);   
 }
 
+@media(min-width: 576px) {
+    .dsc-cart-item-container{
+        flex-direction: row;
+        justify-content: space-between;
+
+    }
+
+    .dsc-cart-item-right{
+        padding-top: 20px;
+        padding-right: 10px;
+    }
+
+    .dsc-card-total-container h3{
+        text-align: right;
+    }
+    
+}
