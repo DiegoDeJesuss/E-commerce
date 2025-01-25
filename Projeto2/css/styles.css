@@ -36,6 +36,11 @@ html,
 body {
   background-color: var(--dsc-color-bg-primary);
 }
+
+main{
+  padding: 0 20px;
+}
+
 /*------------------------------------------------*/
 /* generics styles */
 .dsc-container {
@@ -57,6 +62,8 @@ header {
   background-color: var(--dsc-color-bg-secondary);
   height: 70px;
   display: flex;
+  align-items: center;
+  padding: 0 20px;
 }
 
 nav {
@@ -85,14 +92,23 @@ nav a {
   background-color: var(--dsc-color-card-bg);
 }
 
+/* button styles */
 .dsc-line-bottom {
   border-bottom: 1px solid var(--dsc-color-card-border);
 }
 
 .dsc-btn-page-container {
-  width: 220px;
+  width: 100%;
   display: grid;
   grid-gap: 20px;
+}
+
+@media (min-width: 576px){ /*apartir de 576 o botão muda para 250px*/
+  .dsc-btn-page-container{
+    width: 250px;
+  }
+
+
 }
 
 .dsc-btn {
