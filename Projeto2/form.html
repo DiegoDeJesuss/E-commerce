@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="css/cart.css" />
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DSCommerce</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/details.css" />
+    <link rel="stylesheet" href="css/login.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="dsc-container">
+        <h1>DSComemerce</h1>
+        <p>Maria Silva</p>
+        <a href="#">Sair</a>
+      </nav>
+    </header>
+
+    <main>
+      <section id="cart-container-section" class="dsc-container">
+        <div class="dsc-product-form-section-container">
+          <form class="dsc-card dsc-form">
+            <h2>Dados do produto</h2>
+            <div class="dsc-form-controls-container">
+              <div>
+                <input
+                  class="dsc-form-control dsc-input-error"
+                  type="text"
+                  placeholder="Nome"
+                />
+              </div>
+
+              <div>
+                <input
+                  class="dsc-form-control"
+                  type="password"
+                  placeholder="Preço"
+                />
+              </div>
+
+              <div>
+                <input
+                  class="dsc-form-control"
+                  type="password"
+                  placeholder="imagem"
+                />
+              </div>
+              <div>
+                <select class="dsc-form-control dsc-select" required>
+                  <option value="" disabled selected>Categorias</option>
+                  <option value="1">Valor 1</option>
+                  <option value="2">Valor 2</option>
+                </select>
+              </div>
+
+              <div>
+                <textarea class="dsr-form-control dsc-textarea"></textarea>
+              </div>
+
+              <div class="flex">
+
+              
+              <div class="dsc-product-form-section-buttons dsc-mb20">
+                <button type="reset" class="dsc-btn dsc-btn-white">
+                  Cancelar
+                </button>
+                </div>
+                <button type="submit" class="dsc-btn dsc-btn-blue">
+                  Salvar
+                </button>
+              </div>
+            </div>
+            </div>
+          </form>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

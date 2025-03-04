@@ -256,10 +256,34 @@ nav a {
   font-size: 12px;
 }
 
+
+.dsc-select:invalid {
+  color: var(--dsc-color-font-placeholder);
+}
+
+.dsc-select option[disabled]{
+  display: none;
+}
+
+.dsc-select option {
+  font: var(--dsc-color-font-primary);
+}
+
+
+
+.dsc-textarea{
+  resize: none;
+  height: 128px;
+  width: 100%;
+  padding-top: 10px;
+}
+
 @media (min-width: 576px){
   .dsc-form h2 {
     font-size: 24px;
+    
   }
+
 }
 
 
