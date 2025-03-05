@@ -290,8 +290,6 @@ nav a {
 
 
 
-
-=======
 :root {
   --dsc-color-bg-primary: #e8e8e8;
   --dsc-color-bg-secondary: #ffe500;
@@ -347,6 +345,12 @@ main {
   margin-top: 20px;
 }
 
+dsc-listing-title{
+  text-align: center;
+  color: var(--dsc-color-bg-primary);
+  font-size: 16px;
+}
+
 /*------------------------------------------------*/
 /* header styles */
 header {
@@ -371,6 +375,12 @@ nav h1 {
 nav a {
   font-size: 14px;
   font-weight: 700;
+}
+
+.dsc-listing-title{
+  text-align: center;
+  color: var(--dsc-color-font-primary);
+  font-size: 16px;
 }
 
 /*------------------------------------------------*/
@@ -482,4 +492,21 @@ nav a {
   background-color: var(--dsc-color-card-bg);
   border-radius: 4px 0 0 4px;
 }
->>>>>>> 06e627a85e2e076f2e2f62ad98e56e319e1b73a9
+
+/*------------------------------------------------*/
+/* table styles */
+
+.dsc-table {
+  width: 100%;
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+
+.dsc-tabl thead{
+  background-color: var(--dsc-color-card-bg);
+}
+
+.dsc-tabl tbody{
+  background-color: var(--dsc-color-card-bg);
+}
+
